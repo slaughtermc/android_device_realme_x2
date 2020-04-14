@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_x2.mk
+    $(LOCAL_DIR)/colt_x2.mk
+
+COMMON_LUNCH_CHOICES := \
+		colt_x2-eng \
+		 colt_x2-user \
+		  colt_x2-userdebug

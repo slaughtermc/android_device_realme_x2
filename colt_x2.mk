@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/realme/x2/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Colt stuff.
+$(call inherit-product, vendor/colt/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_x2
+PRODUCT_NAME := colt_x2
 PRODUCT_DEVICE := x2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme x2
