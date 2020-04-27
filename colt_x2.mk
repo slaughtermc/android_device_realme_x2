@@ -9,6 +9,12 @@ $(call inherit-product, device/realme/x2/device.mk)
 # Inherit some common Colt stuff.
 $(call inherit-product, vendor/colt/config/common.mk)
 
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080x2340
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.colt.maintainer="SiddharthBharadwaj"
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := colt_x2
 PRODUCT_DEVICE := x2
