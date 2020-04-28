@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_x2.mk
+    $(LOCAL_DIR)/arrow_x2.mk
 
 COMMON_LUNCH_CHOICES := \
 	    arrow_x2-eng \
