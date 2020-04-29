@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_x2.mk
+    $(LOCAL_DIR)/superior_x2.mk
 
 COMMON_LUNCH_CHOICES := \
-	    arrow_x2-eng \
-        arrow_x2-user \
-        arrow_x2-userdebug
+	    superior_x2-eng \
+        superior_x2-user \
+        superior_x2-userdebug
