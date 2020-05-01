@@ -7,10 +7,10 @@
 $(call inherit-product, device/realme/x2/device.mk)
 
 # Inherit some common Syberia stuff.
-$(call inherit-product, vendor/syberia/config/common.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := syberia_x2
+PRODUCT_NAME := du_x2
 PRODUCT_DEVICE := x2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme x2
