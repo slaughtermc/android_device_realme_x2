@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_x2.mk
+    $(LOCAL_DIR)/syberia_x2.mk
