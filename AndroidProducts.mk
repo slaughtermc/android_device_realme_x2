@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/du_x2.mk
+    
+COMMON_LUNCH_CHOICES := \
+		du_x2-eng \
+		 du_x2-user \
+		  du_x2-userdebug
